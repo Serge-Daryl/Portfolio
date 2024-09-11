@@ -14,23 +14,24 @@
         <header>
             <div class="boxed">
                 <div class="flex aligncenter space-between">
-                    <a href="/" class="header-logo">
+                    <a href="#slider" class="header-logo">
                         <img src="img/Moi.jpg">
                     </a>
                     <ul class="header-menu">
-                        <li><a href="/">Accueil</a></li>
-                        <li><a href="/">À propos de moi</a></li>
-                        <li><a href="/">À propos du BTS</a></li>
-                        <li><a href="/">Compétences</a></li>
-                        <li><a href="/">Réalisations</a></li>
-                        <li><a href="/">Veilles</a></li>
-                        <li><a href="/">Contact</a></li>
+                        <li><a href="#slider">Accueil</a></li>
+                        <li><a href="#about-me">À propos de moi</a></li>
+                        <li><a href="#about-bts">À propos du BTS</a></li>
+                        <li><a href="#skills">Compétences</a></li>
+                        <li><a href="#realizations">Réalisations</a></li>
+                        <li><a href="#veille">Veilles</a></li>
+                        <li><a href="#table">Tableau de synthèse</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </header>
 
-        <div class="slider">
+        <div id="slider" class="slider">
             <img src="img/slider.jpg" class="slider-background">
             <div class="slider-content">
                 <h1>Serge-Daryl MABICKASSA</h1>
@@ -38,21 +39,29 @@
             </div>
         </div>
 
-        <div class="section">
+        <div id="about-me" class="section">
             <div class="boxed">
                 <div class="flex toColumn">
                     <div class="w40 wm100">
-                        <h2>À propos du moi</h2>
+                        <h2>À propos de moi</h2>
                     </div>
                     <div class="w60 wm100">
-                        <p>Je suis actuellement étudiant à l'Institut Privé Supérieur des Systèmes d'Informationde de Paris en première année de BTS SIO (Services Informatiques aux Organisations) dans l'option SLAM (Solutions Logicielles et Application Métier) qui en gros est une option spécialisée pour le développement. Toujours en cours d'étude, je vous propose, sur ce portfolio, de retrouver les différentes études, et projets professionnels que j'ai pu entreprendre au sein de mon cursus.</p>
+                        <p>Je suis actuellement étudiant à l'institut F2I en deuxième année de BTS SIO (Services Informatiques aux Organisations) dans l'option SLAM (Solutions Logicielles et Application Métier) qui en gros est une option spécialisée pour le développement. Toujours en cours d'étude, je vous propose, sur ce portfolio, de retrouver les différentes études, et projets que j'ai pu entreprendre au sein de mon cursus.</p>
                     </div> 
                 </div> 
             </div>
+            <div class="flex">
+                <div class="table">
+                    <a href="">
+                        <img src="img/cv.jpg">
+                    </a>
+                    <a  href="img/cv.jpg" class="download-btn" download>Téléchargez le ici</a>
+                </div>
+            </div>
         </div>
->
+        
 
-        <div class="section dark">
+        <div id="about-bts" class="section dark">
             <div class="boxed">
                 <div class="flex toColumn mCenter">
                     <div class="w40 wm100">
@@ -81,52 +90,52 @@
             </div>
         </div>
 
-
-        <div>
-            <div class="section">
-                <div class="boxed  text-center">
-                    <h2>Découvrez mes compétences</h2>
-                    <div class="flex toColum gap20">
-                        <div class="w25 wm100 skill">
-                            <img src="img/html-logo.png">
-                            <h3>HTML</h3>
-                        </div>
-                        <div class="w25 wm100 skill">
-                            <img src="img/css-logo.png">
-                            <h3>CSS</h3>
-                        </div>
-                        <div class="w25 wm100 skill">
-                            <img src="img/js-logo.png">
-                            <h3>JAVASCRIPT</h3>
-                        </div>
-                        <div class="w25 wm100 skill">
-                            <img src="img/nextjs-logo.png">
-                            <h3>NEXTJS</h3>
-                        </div>
-                    </div>  
-                </div>
+        <div id="skills" class="section">
+            <div class="boxed text-center">
+                <h2>Découvrez mes compétences</h2>
+                <div class="flex toColum gap20">
+                    <div class="w25 wm100 skill">
+                        <img src="img/html-logo.png">
+                        <h3>4/5</h3>
+                    </div>
+                    <div class="w25 wm100 skill">
+                        <img src="img/css-logo.png">
+                        <h3>4/5</h3>
+                    </div>
+                    <div class="w25 wm100 skill">
+                        <img src="img/js-logo.png">
+                        <h3>3/5</h3>
+                    </div>
+                    <div class="w25 wm100 skill">
+                        <img src="img/php-logo.png">
+                        <h3>3/5</h3>
+                    </div>
+                    <div class="w25 wm100 skill">
+                        <img src="img/sql.png">
+                        <h3>3/5</h3>
+                    </div>
+                </div>  
             </div>
         </div>
 
-        <div>
-            <div class="section dark">
-                <div class="boxed  text-center">
-                    <h2>Mes réalisations</h2>
-                    <div class="flex  toColum wrap gap20 space-between">
-                        <div class="w32 wm47 realisation">
-                            <a href="/">
-                                <img src="img/SIOFACTORY.jpg">
-                                <h3>SIOFACTORY</h3>
-                            </a>
-                        </div>
-                        <div class="w32 wm47 realisation">
-                            <a href="/">
-                                <img src="img/ipssi_logo.jpg">
-                                <h3>Atelier professionnel 2</h3>
-                            </a>
+        <div id="realizations" class="section dark">
+            <div class="boxed text-center">
+                <h2>Mes réalisations</h2>
+                <div class="flex toColum wrap gap20 space-between">
+                    <div class="w32 wm47 realisation">
+                        <a href="https://drive.google.com/drive/folders/1py9ALAJfqAsNFcxZmxYG9kqm-qs6phdw?usp=sharing">
+                            <img src="img/SIOFACTORY.jpg">
+                            <h3>SIOFACTORY</h3>
+                        </a>
                     </div>
                     <div class="w32 wm47 realisation">
-                        <a href="/">
+                        <a href="https://lecteur-npai.000webhostapp.com">
+                            <img src="img/ipssi_logo.jpg">
+                            <h3>Lecteur de fichier NPAI</h3>
+                        </a>
+                    </div>
+                    <div class="w32 wm47 realisation">
+                        <a href="https://drive.google.com/file/d/12K-u_xGDkPv8vgtT8qo5Z8I8nxgKFHDu/view?usp=sharing">
                             <img src="img/awb.jpg">
                             <h3>Stage chez AWB</h3>
                         </a>
@@ -135,56 +144,68 @@
             </div>
         </div>
 
-        <div>
-            <div class="section">
-                <div class="boxed text-center">
-                    <h2>Mes veilles technoloiques</h2>
-                    <div class="flex toColum wrap gap20 space-between">
-                        <div class="w32 wm47 veille">
-                            <a href="/">
-                                <img src="img/xiaomi-logo.jpg">
-                                <h3>Xiaomi HyperOS</h3>
-                            </a>
-                        </div>
-                        <div class="w32 wm47 veille">
-                            <a href="/">
-                                <img src="img/ipssi_logo.jpg">
-                                <h3>Veille technologique 2</h3>
-                            </a>
+        <div id="veille" class="section">
+            <div class="boxed text-center">
+                <h2>Mes veilles technoloiques</h2>
+                <div class="flex toColumn mCenter">
+                    <div class="w40 wm100">
+                        <h3>Qu'est-ce qu'une veille technologique?</h3>
+                    </div>
+                    <div class="w60 wm100">
+                        <p>Une veille technologique est l’ensemble des techniques visant à organiser de façon systématique la collecte, l’analyse, la diffusion de l’exploitation des informations techniques utiles à la sauvegarde et à la croissance des entreprises. </p><br>
+                    </div> 
+                </div> 
+                <div class="flex toColum wrap gap20 space-between">
+                    <div class="w32 wm47 veille">
+                        <a href="https://docs.google.com/presentation/d/1vOKGEJsDYe5nGFuPFny49MbTB4sD0V5b/edit?usp=sharing&ouid=111835777411993985600&rtpof=true&sd=true">
+                            <img src="img/xiaomi-logo.jpg">
+                            <h3>Xiaomi HyperOS</h3>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div>
-            <div class="section dark">
-                <div class="boxed  text-center">
-                    <h2>Contactez-moi</h2>
-                    <div class="flex toColum gap20 space-between">
-                        <div class="w32 wm47 contact">
-                            <span class="material-icons">mail</span>
-                            <span class="label">E-mail</span>
-                            <span class="value">s.mabickassa@ecole-ipssi.net</span>
-                        </div>
-                        <div class="w32 wm47 contact">
-                            <i class="bi bi-linkedin"></i>
-                            <span class="label">LinkedIn</span>
-                            <span class="value">
-                                <a href="https://www.linkedin.com/in/serge-daryl-mabickassa-boussougou">serge-daryl mabickassaboussougou</a>
-                            </span>
-                        </div>
-                        <div class="w32 wm47 contact">
-                            <i class="bi bi-github"></i>
-                            <span class="label">Github</span>
-                            <span class="value">
-                                <a href="https://github.com/serge-daryl">serge-daryl</a>
-                            </span>
-                        </div>
-                        <div class="w32 wm47 contact">
-                            <span class="material-icons">contact_phone</span>
-                            <span class="label">Téléphone</span>
-                            <span class="value">+33753660060</span>
-                        </div>
+        <div id="table" class="section dark">
+            <div class="boxed text-center">
+                <h2>Tableau de synthèse</h2>
+                <div class="flex">
+                    <div class="table">
+                        <a href="">
+                            <img src="img/data.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="section">
+            <div class="boxed text-center">
+                <h2>Contactez-moi</h2>
+                <div class="flex toColum gap20 space-between">
+                    <div class="w32 wm47 contact">
+                        <span class="material-icons">mail</span>
+                        <span class="label">E-mail</span>
+                        <span class="value"></span>
+                    </div>
+                    <div class="w32 wm47 contact">
+                        <i class="bi bi-linkedin"></i>
+                        <span class="label">LinkedIn</span>
+                        <span class="value">
+                            <a href="https://www.linkedin.com/in/serge-daryl-mabickassa-boussougou">serge-daryl mabickassaboussougou</a>
+                        </span>
+                    </div>
+                    <div class="w32 wm47 contact">
+                        <i class="bi bi-github"></i>
+                        <span class="label">Github</span>
+                        <span class="value">
+                            <a href="https://github.com/serge-daryl">serge-daryl</a>
+                        </span>
+                    </div>
+                    <div class="w32 wm47 contact">
+                        <span class="material-icons">contact_phone</span>
+                        <span class="label">Téléphone</span>
+                        <span class="value">+33753660060</span>
                     </div>
                 </div>
             </div>
@@ -193,4 +214,5 @@
     </body>
 
     <script src="js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
 </html>

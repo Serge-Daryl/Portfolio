@@ -296,9 +296,30 @@ header{
     color: #FFF;
 }
 
+.table img {
+    max-width: 100%; /* Limite la largeur de l'image à celle de son conteneur */
+    height: auto; /* Maintient le rapport d'aspect de l'image */
+    display: block; /* Permet de gérer le centrage de l'image */
+    margin: 20px auto 0; /* Centre l'image horizontalement */
+}
+
+
 @media(max-width:810px){
     header{
-        display: none;
+       
+    }
+
+    .header-menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #FFF;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
     }
 
     .slider{
